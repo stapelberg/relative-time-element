@@ -2411,18 +2411,18 @@ suite('relative-time', function () {
         expected: 'in 3 years',
       },
       {
-        reference: '2022-12-31T12:00:00.000Z',
-        datetime: '2024-03-01T12:00:00.000Z',
-        tense: 'future',
-        format: 'micro',
-        expected: '3y',
+        reference: '2023-02-18T19:00:00.000Z',
+        datetime: '2021-02-02T20:49:31.000Z',
+        tense: 'past',
+        format: 'auto',
+        expected: '2 years ago',
       },
       {
-        reference: '2021-04-24T12:00:00.000Z',
-        datetime: '2023-02-01T12:00:00.000Z',
-        tense: 'future',
-        format: 'micro',
-        expected: '2y',
+        reference: '2023-02-18T19:00:00.000Z',
+        datetime: '2021-01-23T09:28:06.000Z',
+        tense: 'past',
+        format: 'auto',
+        expected: '2 years ago',
       },
     ])
 
